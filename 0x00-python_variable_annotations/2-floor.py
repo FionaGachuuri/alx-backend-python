@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 import math
-from typing import Union
 
 """
 This script defines a function to compute the floor of a number.
 """
 
 
-def floor(n: Union[int, float]) -> int:
+def floor(n: float) -> int:
     """
     Computes the floor of a number.
 
@@ -17,4 +16,4 @@ def floor(n: Union[int, float]) -> int:
     Returns:
         int: The floor of the number.
     """
-    return int(math.floor(n))
+    return math.floor(n)
