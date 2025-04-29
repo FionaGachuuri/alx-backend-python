@@ -7,14 +7,14 @@ This script defines a function to compute the floor of a number.
 """
 
 
-def floor(n: Union[float]) -> float:
+def floor(n: Union[int, float]) -> int:
     """
     Computes the floor of a number.
 
     Args:
-        n (float): The number to compute the floor of.
+        n (Union[int, float]): The number to compute the floor of.
 
     Returns:
-        float: The floor of the number.
+        int: The floor of the number.
     """
-    return math.floor(n)
+    return int(math.floor(n))
